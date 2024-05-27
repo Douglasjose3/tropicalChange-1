@@ -1,7 +1,8 @@
 import { useState } from "react"
 import { Link } from "react-scroll"
 import { FaTimes } from "react-icons/fa"
-import { HiMenuAlt1 } from "react-icons/hi";
+import { HiMenuAlt1 } from "react-icons/hi"
+import { AiFillDiscord } from "react-icons/ai"
 
 
 const Nav = () => {
@@ -27,8 +28,11 @@ const Nav = () => {
                     <li className="menu-links hover:bg-[#F7EDB2] hover:text-[#FFAC33]">Seção 3</li>
                 </Link>
                 <div>
-                    <button className="botao lg:hidden hover:bg-[#F16354] hover:shadow-lg hover:shadow-[#1E7C8C] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85]"
+                    <button className="botao-menu lg:hidden hover:bg-[#F7EDB2] hover:text-[#F16354] hover:shadow-lg hover:shadow-[#F16354] hover:border-2 hover:border-[#F16354]"
                         type="button">
+                            <p className="text-[30px]">
+                                <AiFillDiscord/>
+                            </p>            
                         <a href="https://www.launchpass.com/tropical-change/discord">Join Our Discord</a>
                     </button>
                 </div>
@@ -40,7 +44,6 @@ const Nav = () => {
 
             <a href="/" className="flex flex-1">
                 <span className="colorText2 lg:text-3xl font-extrabold">Tropical Change</span>
-
             </a>
             <div className="lg:flex text-[18px] colorText3 hidden">
                 <div className="flex-10">
@@ -58,10 +61,14 @@ const Nav = () => {
                             <li className="colorText2 hover:text-[#F7EDB2] cursor-pointer">Footer</li>
                         </Link>
                         <div>
-                            <button className="botao-link hover:bg-[#F7EDB2] hover:shadow-lg hover:shadow-[#F16354] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85]"
+                            <button className="botao-link hover:bg-[#F7EDB2] hover:text-[#F16354] hover:shadow-lg hover:shadow-[#F16354] hover:border-2 hover:border-[#F16354]"
                                 type="button">
+                                    <span className="text-[40px]">
+                                        <AiFillDiscord/>
+                                    </span>
                                 <a href="https://www.launchpass.com/tropical-change/discord">Join Our Discord</a>
                             </button>
+                            
                         </div>
                     </ul>
                 </div>

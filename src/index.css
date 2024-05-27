@@ -34,22 +34,26 @@
     @apply text-[#F16354]
 }
 
-.menu-links {
-    @apply my-5 py-3 px-6 text-center font-bold text-xs text-white colorBg1 w-[270px] rounded-md cursor-pointer uppercase;
+.colorText5 {
+    @apply text-white
 }
 
-.botao {
-    @apply my-6 py-3 px-6 text-center text-xs font-bold colorBg3 text-white w-[270px] rounded-lg uppercase shadow-md;
+.menu-links {
+    @apply my-5 py-3 px-6 text-center font-bold text-xs colorText5 colorBg1 w-[270px] rounded-md cursor-pointer uppercase;
+}
+
+.botao-menu {
+    @apply flex justify-center items-center gap-4 my-6 py-3 px-6 text-center text-xs font-bold colorBg4 colorText5 w-[270px] rounded-lg uppercase shadow-md border-2;
 }
 
 .botao-link {
-    @apply py-2 rounded-lg colorBg1 py-3 px-6 text-center font-sans text-xs font-bold uppercase text-black shadow-md transition-all;
+    @apply flex justify-center items-center gap-4 rounded-lg py-1 px-6 text-center font-sans text-xs font-bold uppercase colorBg4 colorText5 shadow-md transition-all border-2;
 }
 
 .textoPrincipal {
     @apply font-black text-[48px] leading-[1] text-center text-[#F16354] mb-5;
 }
 
-.botaoDiscord {
-    @apply flex justify-center items-center colorBg4 rounded-md h-auto py-2 mt-8 text-2xl;
+.botaoAbout {
+    @apply flex justify-center items-center colorBg4 colorText5 rounded-md py-2 mt-8 text-2xl shadow-md border-2;
 }
