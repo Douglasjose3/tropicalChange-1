@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.colorBg1 {
+    @apply bg-[#FFAC33]
+}
+
+.colorBg2 {
+    @apply bg-[#F7EDB2]
+}
+
+.colorBg3 {
+    @apply bg-[#1E7C8C]
+}
+
+.colorBg4 {
+    @apply bg-[#F16354]
+}
+
+.colorText1 {
+    @apply text-white
+}
+
+.colorText2 {
+    @apply text-[#FFAC33]
+}
+
+.colorText3 {
+    @apply text-[#F7EDB2]
+}
+
+.colorText4 {
+    @apply text-[#F16354]
+}
+
+.menu-links {
+    @apply my-5 py-3 px-6 text-center font-bold text-xs text-white colorBg1 w-[270px] rounded-md cursor-pointer uppercase;
+}
+
+.botao {
+    @apply my-6 py-3 px-6 text-center text-xs font-bold colorBg3 text-white w-[270px] rounded-lg uppercase shadow-md;
+}
+
+.botao-link {
+    @apply py-2 rounded-lg colorBg1 py-3 px-6 text-center font-sans text-xs font-bold uppercase text-black shadow-md transition-all;
+}
+
+.textoPrincipal {
+    @apply font-black text-[48px] leading-[1] text-center text-[#F16354] mb-5;
+}
+
+.botaoDiscord {
+    @apply flex justify-center items-center mt-6 colorBg4 pt-3 pb-3 pl-6 pr-6 rounded-md h-auto ;
+}
