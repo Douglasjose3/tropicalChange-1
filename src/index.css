@@ -51,5 +51,5 @@
 }
 
 .botaoDiscord {
-    @apply flex justify-center items-center mt-6 colorBg4 pt-3 pb-3 pl-6 pr-6 rounded-md h-auto ;
+    @apply flex justify-center items-center colorBg4 rounded-md h-auto py-2 mt-8 text-2xl;
 }

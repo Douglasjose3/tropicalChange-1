@@ -8,12 +8,12 @@ const Nav = () => {
     const [click, setClick] = useState('');
     const handleClick = () => setClick(!click);
     
-    const content = <aside className="absolute top-4 left-6 w-full p-[50px] backdrop-blur-lg flex justify-end lg:hidden md:hidden">
-            <button className="absolute top-[25px] right-[50px]" onClick={handleClick}>
+    const content = <aside className="absolute top-0 left-0 w-full pb-[130px] backdrop-blur-lg flex justify-center lg:hidden md:hidden">
+            <button className="absolute top-[45px] right-[40px]" onClick={handleClick}>
                 {click && <FaTimes className="text-[20px]"/>}
             </button>
             
-            <ul className="flex flex-col mt-[30px]">
+            <ul className="flex flex-col mt-[80px]">
                 <Link spy={true} smooth={true} to="About">
                     <li className="menu-links hover:bg-[#F7EDB2] hover:text-[#FFAC33]">About</li>
                 </Link>
@@ -29,7 +29,7 @@ const Nav = () => {
                 <div>
                     <button className="botao lg:hidden hover:bg-[#F16354] hover:shadow-lg hover:shadow-[#1E7C8C] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85]"
                         type="button">
-                        <a href="https://www.launchpass.com/tropical-change/discord">Discord</a>
+                        <a href="https://www.launchpass.com/tropical-change/discord">Join Our Discord</a>
                     </button>
                 </div>
             </ul>
@@ -60,7 +60,7 @@ const Nav = () => {
                         <div>
                             <button className="botao-link hover:bg-[#F7EDB2] hover:shadow-lg hover:shadow-[#F16354] focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85]"
                                 type="button">
-                                <a href="https://www.launchpass.com/tropical-change/discord">Discord</a>
+                                <a href="https://www.launchpass.com/tropical-change/discord">Join Our Discord</a>
                             </button>
                         </div>
                     </ul>
