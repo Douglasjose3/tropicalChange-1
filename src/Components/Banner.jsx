@@ -3,8 +3,8 @@ import About from "./About"
 
 const Banner = () => {
     return (
-        <div className="bg-[url('assets/background.jpg')] bg-cover h-screen w-screen hover:sm bg-center">
-            <Nav/>
+        <div className="bg-[url('assets/background.png')] bg-cover min-w-screen min-h-screen hover:sm bg-center">
+            <Nav className="sticky top-0"/>
             <About/>
         </div>
     )

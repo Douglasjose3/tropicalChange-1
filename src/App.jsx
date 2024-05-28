@@ -1,6 +1,7 @@
 import Banner from './Components/Banner'
 import SecaoOne from './Components/IncludedIn'
 import Footer from './Components/Footer'
+import IncludedIn from './Components/IncludedIn'
 
 const App = () => {
   return (
@@ -9,13 +10,10 @@ const App = () => {
         <Banner/>
       </div>
 
-      <section className="colorBg3">
-        <SecaoOne />
+      <section>
+        <IncludedIn />
       </section>
 
-      <div className="bg-slate-800">
-        <Footer/>
-      </div>
       
       
     </>

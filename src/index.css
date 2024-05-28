@@ -38,6 +38,14 @@
     @apply text-white
 }
 
+.colorText6 {
+    @apply text-[#1E7C8C]
+}
+
+.colorIconIncluded {
+        @apply text-[#1E7C8C] text-3xl
+}
+
 .menu-links {
     @apply my-5 py-3 px-6 text-center font-bold text-xs colorText5 colorBg1 w-[270px] rounded-md cursor-pointer uppercase;
 }
@@ -55,5 +63,13 @@
 }
 
 .botaoAbout {
-    @apply flex justify-center items-center colorBg4 colorText5 rounded-md py-2 mt-8 text-2xl shadow-md border-2;
+    @apply flex justify-center items-center colorBg4 colorText5 rounded-xl py-2 mt-8 text-2xl shadow-md border-2;
+}
+
+.includedH1 {
+    @apply flex items-center text-xl font-extrabold gap-3;
+}
+
+.includedParaph {
+    @apply font-bold mb-3 ml-11;
 }
